@@ -9,7 +9,7 @@ header{
     background: linear-gradient(68deg, #151515 16.62%, #2e2d2d 85.61%);
 }
 
-.title {
+#anos {
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -17,6 +17,16 @@ header{
     text-align: center;
     padding-left: 20px;
     padding-top: 20px;
+    margin: 20px;
+}
+
+#casas {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+    padding-left: 20px;
     margin: 20px;
 }
 
@@ -43,11 +53,44 @@ ul.nav li {
     display: inline;
 }
 
-.naveg a {
-    border: solid black;
+#grif  a{
+    border: solid #b60a27;
     font-family: Arial, Helvetica, sans-serif;
-    background: #1C1C1C;
-    color: white;
+    background: #d50e2f;
+    color: #f5be0b;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#lufa  a{
+    border: solid #f0c441;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fee35e;
+    color: #020100;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#corv  a{
+    border: solid #001621;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #096fb9;
+    color: #b1acb2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#sons  a{
+    border: solid #021323;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1e7352;
+    color: #b4b5b7;
     text-align: center;
     padding: 10px;
     text-decoration: none;
