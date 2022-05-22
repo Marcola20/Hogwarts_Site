@@ -1,0 +1,76 @@
+body {
+    height: 540px;
+    background-image: url(../SITE/Imagens/hog_fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background: linear-gradient(68deg, #151515 16.62%, #2e2d2d 85.61%);
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+#foot{
+    border: 0;
+    border-top: 3px solid black;
+    margin: 0px 0px 5px 0px;
+}
+
+hr {
+    border: 0;
+    border-top: 3px solid black;
+    margin: 20px 0px 20px 0px;
+}
+
+ul.nav {
+    margin: 30px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+ul.nav li {
+    list-style: none;
+    display: inline;
+}
+
+.naveg a {
+    border: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1C1C1C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.home{
+    top: 15px;
+    position: relative;
+}
+
+#tone{
+    margin: 0px auto;
+}
+
+#ttwo{
+    margin: 20px auto;
+}
+
+footer {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
