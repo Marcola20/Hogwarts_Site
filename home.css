@@ -1,12 +1,19 @@
-body {
-    height: 540px;
+.up {
+    padding: 10px;
+    border-bottom: #020100 solid 3px;
+}
+
+.bodyy {
+    height: 100%;
     background-image: url(../SITE/Imagens/hog_fundo.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-header{
+.header{
     background: linear-gradient(68deg, #151515 16.62%, #2e2d2d 85.61%);
+    padding: 20px 0px 5px 0px;
+    border-bottom: #020100 solid 3px;
 }
 
 #anos {
@@ -16,30 +23,8 @@ header{
     text-shadow: 2px 2px 10px #151515;
     text-align: center;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 20px;
-}
-
-#casas {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-shadow: 2px 2px 10px #151515;
-    text-align: center;
-    padding-left: 20px;
-    margin: 20px;
-}
-
-#foot{
-    border: 0;
-    border-top: 3px solid black;
-    margin: 0px 0px 5px 0px;
-}
-
-hr {
-    border: 0;
-    border-top: 3px solid black;
-    margin: 20px 0px 20px 0px;
 }
 
 ul.nav {
@@ -110,10 +95,75 @@ ul.nav li {
     margin: 20px auto;
 }
 
+#linha_table{
+    border-bottom: #020100 solid 3px;
+}
+
+#casa{
+    border-bottom: 3px solid black;
+    padding: 5px 0px 5px 0px;
+}
+
+#casas {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+#grifinoria{
+    background-image: url(../SITE/Imagens/grif_fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#lufa_lufa{
+    background-image: url(../SITE/Imagens/lufa_fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#corvinal{
+    background-image: url(../SITE/Imagens/corvinal_fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#sonserina{
+    background-image: url(../SITE/Imagens/sonserina_fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#foot{
+    border: 0;
+    border-top: 3px solid black;
+    margin: 0px 0px 5px 0px;
+}
+
 footer {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: black;
     text-align: center;
 }
 
