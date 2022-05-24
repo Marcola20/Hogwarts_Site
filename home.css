@@ -1,12 +1,20 @@
-body {
-    height: 540px;
-    background-image: url(../SITE/Imagens/hog_fundo.jpg);
+.linespaco {
+    padding: 10px;
+    border-bottom: #020100 solid 3px;
+}
+
+.bodyy {
+    background-image: url(../SITE/Imagens/hog_fundo.jpg); /* Mudar */
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-attachment: fixed;
 }
 
-header{
+#header{
     background: linear-gradient(68deg, #151515 16.62%, #2e2d2d 85.61%);
+    padding: 20px 0px 5px 0px;
+    border-bottom: #020100 solid 3px;
 }
 
 #anos {
@@ -16,41 +24,25 @@ header{
     text-shadow: 2px 2px 10px #151515;
     text-align: center;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 20px;
-}
-
-#casas {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-shadow: 2px 2px 10px #151515;
-    text-align: center;
-    padding-left: 20px;
-    margin: 20px;
-}
-
-#foot{
-    border: 0;
-    border-top: 3px solid black;
-    margin: 0px 0px 5px 0px;
-}
-
-hr {
-    border: 0;
-    border-top: 3px solid black;
-    margin: 20px 0px 20px 0px;
 }
 
 ul.nav {
     margin: 30px;
     margin-top: -15px;
     text-align: center;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 ul.nav li {
     list-style: none;
     display: inline;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 #grif  a{
@@ -102,18 +94,214 @@ ul.nav li {
     position: relative;
 }
 
-#tone{
+.table_casas{
     margin: 0px auto;
+    padding-bottom: 20px;
 }
 
-#ttwo{
-    margin: 20px auto;
+.table_casas tr{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.table_casas th{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.table_casas td{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+#linha_baixo_pontilhada{
+    border-bottom: #020100 solid 3px;
+    border-style: dotted;
+}
+
+#casas_up{
+    background: linear-gradient(68deg, #151515 16.62%, #2e2d2d 85.61%);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#h3casas {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+    padding: 10px;
+}
+
+.griflufa{
+    display: flex;
+}
+
+.grifinoria{
+    background-image: url(../SITE/Imagens/grif_fundo.jpg);
+    width: 50%;
+    background-size: cover;
+    background-attachment: flex;
+}
+
+#grifinoria{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f5be0b;
+    text-align: center;
+}
+
+#grif_table{
+    background: linear-gradient(68deg, #b60a27 32.62%, #d50e2f 68.61%);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+#grif_table th{
+    color: white;
+    border: solid #f5be0b 2px;
+}
+
+#grif_table td{
+    border: solid #f5be0b 2px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+#grif_table a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#gg_infos{
+    display: flex;
+}
+
+#gg_name_img img{
+    margin-left: 10px;
+    width: 250px;
+    height: 369px;
+}
+
+#gg_infos h3{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 10px #151515;
+    text-decoration: none;
+}
+
+#gg_desc{
+    margin-left: 10px;
+    margin-top: 45px;
+    margin-right: 15px;
+}
+
+#gg_desc p{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+}
+
+#tracos{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+}
+
+#nick_infos{
+    display: flex;
+}
+
+#nick_name_img{
+    margin-left: 10px;
+    width: 350px;
+    height: 201px;
+}
+
+.lufa_lufa{
+    background-image: url(../SITE/Imagens/lufa_fundo.jpg);
+    width: 50%;
+    background-size: cover;
+    background-attachment: flex;
+}
+
+#lufa_lufa{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #020100;
+    text-align: center;
+}
+
+.corvsons{
+    display: flex;
+}
+
+.corvinal{
+    background-image: url(../SITE/Imagens/corvinal_fundo.jpg);
+    width: 50%;
+    background-size: cover;
+    background-attachment: flex;
+}
+
+#corvinal{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b1acb2;
+    text-align: center;
+}
+
+.sonserina{
+    background-image: url(../SITE/Imagens/sonserina_fundo.jpg);
+    width: 50%;
+    background-size: cover;
+    background-attachment: flex;
+}
+
+#sonserina{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b4b5b7;
+    text-align: center;
+}
+
+#foot{
+    border: 0;
+    border-top: 3px solid black;
+    margin: 0px 0px 5px 0px;
 }
 
 footer {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: black;
     text-align: center;
 }
 
