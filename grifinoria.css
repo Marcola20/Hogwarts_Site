@@ -1,0 +1,151 @@
+.linespaco {
+    padding: 10px;
+    border-bottom: #f5be0b solid 3px;
+}
+
+body{
+    background-image: url(../Hogwarts_Site/Grifinoria_Imagens/grif_fundo.jpg);
+}
+
+#header{
+    background-color: #bb1732;
+    padding: 20px 0px 5px 0px;
+    border-bottom: #f5be0b solid 3px;
+}
+
+ul.naveg {
+    margin: 30px;
+    margin-top: -15px;
+    text-align: center;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ul.naveg li {
+    list-style: none;
+    display: inline;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+#grif  a{
+    border: solid #b60a27;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d50e2f;
+    color: #f5be0b;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#lufa  a{
+    border: solid #f0c441;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fee35e;
+    color: #020100;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#corv  a{
+    border: solid #06558e;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #096fb9;
+    color: #b1acb2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#sons  a{
+    border: solid #15513a;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1e7352;
+    color: #b4b5b7;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.home{
+    top: 15px;
+    position: relative;
+}
+
+#grif_sobre{
+    padding: 10px 380px 10px 380px;
+}
+
+#grif_sobre p{
+    text-align: center;
+    color: #f5be0b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divflex{
+    display: flex;
+    height: 405px;
+    border-bottom: 3px solid #f5be0b;
+    border-style: dotted;
+}
+
+#fundador{
+    width: 50%;
+    display: flex;
+}
+
+#img_name{
+    width: 255px;
+    height: 380px; 
+}
+
+#img_name img{
+    width: 249px;
+    height: 369px;
+    border: #f5be0b solid 3px;
+}
+
+#img_name p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #d50e2f;
+    border: #f5be0b solid 3px;
+    background-color: #f5be0b;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+    text-shadow: 2px 2px 10px black;
+}
+
+#infos_godric{
+    padding: 20px 50px 0px 10px;
+}
+
+#infos_godric p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#emblema{
+    width: 50%;
+    display: flex;
+}
+
+#emblema_img{
+    width: 255px;
+    height: 380px; 
+}
+
+#emblema_img img{
+    margin-left: 10px;
+    width: 249px;
+    height: 369px;
+    border: #f5be0b solid 3px;
+}
