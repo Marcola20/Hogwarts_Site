@@ -4,7 +4,8 @@
 }
 
 body{
-    background-image: url(../Hogwarts_Site/Grifinoria_Imagens/grif_fundo.jpg);
+    background-image: url(../SITE/Grifinoria_Imagens/grif_fundo.jpg);
+    background-position-x: center;
 }
 
 #header{
@@ -125,12 +126,15 @@ ul.naveg li {
 }
 
 #infos_godric{
-    padding: 20px 50px 0px 10px;
+    padding: 5px 50px 0px 10px;
 }
 
 #infos_godric p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    display: block;
+    float: left;
+    word-wrap: break-word;
 }
 
 #emblema{
