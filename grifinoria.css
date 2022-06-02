@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../Hogwarts_Site/Grifinoria_Imagens/grif_fundo.jpg);
+    background-image: url(../SITE/Grifinoria_Imagens/grif_fundo.jpg);
     background-position-x: center;
 }
 
@@ -131,6 +131,7 @@ ul.naveg li {
 #infos_godric p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    font-size: 16px;
     display: block;
     float: left;
     word-wrap: break-word;
@@ -173,6 +174,7 @@ ul.naveg li {
 #infos_grif p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    font-size: 16px;
     margin-left: 10px;
     display: block;
     float: left;
@@ -180,7 +182,26 @@ ul.naveg li {
 }
 
 .titlep{
-    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
     color: #f5be0b;
+}
+
+#title_itens{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f5be0b;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+    margin-top: 20px;
+}
+#itens_table{
+    margin-left: 10px;
+}
+
+#itens_table img{
+    width: 385px;
+    height: 512px; 
 }
 
