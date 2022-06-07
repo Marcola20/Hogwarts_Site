@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="br">
 <head>
+    <script src="grifinoria.js"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="grifinoria.css">
+    <meta charset="UTF-8">
     <title>Grifinoria</title>
 </head>
 <body>
@@ -28,7 +30,7 @@
         <div class="divflex">
             <div id="emblema">
                 <div id="emblema_img">
-                    <img src="../SITE/Grifinoria_Imagens/emblema_comunal.png">
+                    <img src="../Hogwarts_Site/Grifinoria_Imagens/emblema_comunal.png">
                     <p>Emblema e Sala Comunal</p>
                 </div>
                 <div id="infos_grif">
@@ -45,7 +47,7 @@
 
             <div id="fundador">
                 <div id="img_name">
-                    <img src="../SITE/Grifinoria_Imagens/grif_fundador.jpg">
+                    <img src="../Hogwarts_Site/Grifinoria_Imagens/grif_fundador.jpg">
                     <p> Godric Gryffindor - Fundador</p>
                 </div>
 
@@ -63,9 +65,52 @@
         <div class="itens">
             <h3 id="title_itens">ITENS MÁGICOS</h3>
         </div>
+        
+        <div id="divflex_itens">
 
-        <div id="flex_itens">
+            <div id="sword">
+                <div>
+                    <img src="../Hogwarts_Site/Grifinoria_Imagens/sword.jpg" width="197px" height="256px">
+                </div>
+                <div>
+                    <p><span class="capa_sword">ESPADA DE GODRIC GRYFFINDOR</span></br>
+                        A espada foi feita de acordo com as especificações de Godrico Grifinória por Ragnuk, o Primeiro, o melhor dos ourives goblins e, portanto, Rei (na cultura duende, o governante não trabalha menos que os outros, mas com mais habilidade). Quando terminou, Ragnuk a cobiçou tanto que fingiu que Grifinória havia roubado dele e enviou subordinados para roubá-lo de volta. Grifinória se defendeu com sua varinha , mas não matou seus agressores. Em vez disso, ele os mandou de volta para seu rei enfeitiçado, para fazer a ameaça de que se ele tentasse roubar da Grifinória novamente, Grifinória desembainharia a espada contra todos eles. O rei duende levou a ameaça a sério e deixou Grifinória com a posse de sua propriedade, mas permaneceu ressentido até morrer.</br>
+                        Uma lenda persiste, em algumas seções da comunidade dos duendes, que Grifinória realmente roubou a espada de Ragnuk. Em parte, isso é resultado da crença entre alguns duendes de que os itens feitos por duendes pertencem por direito a duendes, e não aos herdeiros daqueles que os compraram.</br></br>
+                        *Alvo Dumbledore, Rony Weasley e Neville Longbottom usaram a Espada de Gryffindor para destruir o anel de Servolo, o medalhão de Salazar Slytherin, e Nagini, respectivamente.
+                    </p>
+                </div>
+            </div>
 
+            <div id="capa">
+                <div>
+                    <img src="../Hogwarts_Site/Grifinoria_Imagens/capa.png" width="256px" height="256px" id="capa_invisibilidade"></br>
+                    <input type="button" value="VISÍVEL" onclick="visivel();" class="button_capa">
+                    <input type="button" value="INVISÍVEL" onclick="invisivel();" class="button_capa">
+                </div>
+
+                <div>
+                    <p><span class="capa_sword">CAPA DA INVISIBILIDADE</span></br>
+                        É um artefato mágico usado para tornar o usuário invisível e uma das lendárias Relíquias da Morte. Em "O Conto dos Três Irmãos", foi o terceiro e última relíquias criado, concedido a Ignoto Peverell, supostamente pela própria Morte (que tinha o manto em sua posse naquele momento) depois que o bruxo solicitou, como sua recompensa, por algo com o poder de escondê-lo se ele fosse a lugar sem ser seguido pela Morte. Segundo a lenda, quem o unisse às outras duas Relíquias (a Varinha das Varinhas e a Pedra da Ressurreição) se tornaria o Mestre da Morte.</br>
+                        Era a única capa de invisibilidade conhecida que não se desvaneceria com a idade e proporcionaria proteção eterna ao usuário, algo que nenhuma capa de invisibilidade normal poderia proporcionar. Como tal, foi o única relíquia conhecida por ter sido transmitido com sucesso de geração em geração desde o tempo de Ignoto. Em 1991, passou para a posse de Harry Potter, que a usou com grande sucesso na Segunda Guerra Bruxa e resolveu transmiti-la para seus próprios filhos.</br></br>
+                        *Como dito anteriormente, a capa foi passada de geração em geração, porém quem deu a capa para Harry foi Dumbledore, que tinha pego a capa com o pai do garoto antes de sua morte.</br>
+                        **A Capa não pertencia a Grifinória, mas pertenceu a alunos da casa e por isso é um item a ser notado.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="mapa_infos">
+            <p align="center"><span id="mapa_title_caps">MAPA DO MAROTO</span></br>
+                O Mapa do Maroto é um mapa Hogwarts com propriedades mágicas criado nos anos 70, antes do nascimento de Harry e seus amigos, pelos quatro marotos: Remo Lupin (Aluado), Pedro Pettigrew (Rabicho), Sirius Black (Almofadinhas) e Tiago Potter (Pontas). Ativado somente se dita a frase eu juro solenemente não fazer nada de bom e desativado pela frase malfeito feito, o mapa é capaz de mostrar a localização exata de cada pessoa dentro dos limites de Hogwarts (seus movimentos são indicados por pegadas), além de indicar caminhos, passagens secretas e outros pontos de interesse pelo castelo e seus terrenos.
+            </p>
+        </div>
+
+        <div id="mapa">
+            <img src="../Hogwarts_Site/Grifinoria_Imagens/mapa_fechado.jpg" id="mapa_do_maroto"></br>
+            <input type="button" value="REVELIO" onclick="revelio();" class="button_mapa">
+            <input type="button" value="Malfeito, feito!" onclick="fechar_mapa();" class="button_mapa">
+            <input type="button" value="eu juro solenemente não fazer nada de bom" onclick="abrir_mapa();" class="button_mapa">
         </div>
 
     </div>

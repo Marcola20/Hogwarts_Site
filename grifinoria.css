@@ -4,8 +4,9 @@
 }
 
 body{
-    background-image: url(../SITE/Grifinoria_Imagens/grif_fundo.jpg);
+    background-image: url(../Hogwarts_Site/Grifinoria_Imagens/grif_fundo.jpg);
     background-position-x: center;
+    background-size: cover;
 }
 
 #header{
@@ -194,8 +195,12 @@ ul.naveg li {
     color: #f5be0b;
     text-shadow: 2px 2px 10px #151515;
     text-align: center;
-    margin-top: 20px;
+    border: solid #b60a27;
+    background: #d50e2f;
+    padding: 10px;
+    text-decoration: none;
 }
+
 #itens_table{
     margin-left: 10px;
 }
@@ -205,3 +210,99 @@ ul.naveg li {
     height: 512px; 
 }
 
+#divflex_itens{
+    display: flex;
+    margin-top: 10px;
+}
+
+#sword{
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+
+.capa_sword{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f5be0b;
+}
+
+#sword img{
+    border: #f0c441 solid 3px;
+    margin-left: 10px;
+}
+
+#sword p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+#capa{
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+
+#capa img{
+    border: #f0c441 solid 3px;
+}
+
+#capa p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+.button_capa{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #f0c441;
+    background-color: #bb1732;
+    border: #b60a27 solid 2px;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    margin-left: 37px;
+}
+
+#mapa_title_caps{
+    margin-top: 10px;
+    color: #f0c441;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+}
+
+#mapa_infos p{
+    margin-top: 10px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: solid #b60a27;
+    background: #d50e2f;
+    padding: 10px;
+}
+
+#mapa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#mapa img{
+    border: #f0c441 solid 3px;
+}
