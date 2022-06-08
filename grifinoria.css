@@ -1,3 +1,5 @@
+/* PADRÃO */
+
 .linespaco {
     padding: 10px;
     border-bottom: #f5be0b solid 3px;
@@ -81,6 +83,8 @@ ul.naveg li {
     position: relative;
 }
 
+/* SOBRE */
+
 #grif_sobre{
     padding: 10px 380px 10px 380px;
 }
@@ -90,6 +94,8 @@ ul.naveg li {
     color: #f5be0b;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* DIV DAS CORES, ANIMAIS, EMBLEMA E DO FUNDADOR */
 
 .divflex{
     display: flex;
@@ -188,6 +194,8 @@ ul.naveg li {
     font-size: 22px;
     color: #f5be0b;
 }
+
+/* ITENS MÁGICOS */
 
 #title_itens{
     font-size: 40px;
@@ -305,4 +313,14 @@ ul.naveg li {
 
 #mapa img{
     border: #f0c441 solid 3px;
+}
+
+.button_mapa{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #f0c441;
+    background-color: #bb1732;
+    border: #b60a27 solid 2px;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
 }

@@ -1,0 +1,198 @@
+/* PADRÃO */
+
+.linespaco {
+    padding: 10px;
+    border-bottom: #f0c441 solid 3px;
+}
+
+body{
+    background-image: url(../Hogwarts_Site/Lufa_Imagens/lufa_fundo.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+#header{
+    background-color: #fee35e;
+    padding: 20px 0px 5px 0px;
+    border-bottom: #f0c441 solid 3px;
+}
+
+ul.naveg {
+    margin: 30px;
+    margin-top: -15px;
+    text-align: center;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ul.naveg li {
+    list-style: none;
+    display: inline;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+#grif  a{
+    border: solid #b60a27;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d50e2f;
+    color: #f5be0b;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#lufa  a{
+    border: solid #f0c441;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fee35e;
+    color: #020100;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#corv  a{
+    border: solid #06558e;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #096fb9;
+    color: #b1acb2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#sons  a{
+    border: solid #15513a;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1e7352;
+    color: #b4b5b7;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.home{
+    top: 15px;
+    position: relative;
+}
+
+/* SOBRE */
+
+#lufa_sobre{
+    padding: 10px 380px 10px 380px;
+}
+
+#lufa_sobre p{
+    text-align: center;
+    color: #020100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* DIV DAS CORES, ANIMAIS, EMBLEMA E DO FUNDADOR */
+
+.divflex{
+    display: flex;
+    height: 405px;
+    border-bottom: 3px solid #f0c441;
+    border-style: dotted;
+}
+
+#fundadora{
+    width: 50%;
+    display: flex;
+}
+
+#img_name{
+    width: 255px;
+    height: 380px; 
+}
+
+#img_name img{
+    width: 249px;
+    height: 369px;
+    border: #f0c441 solid 3px;
+}
+
+#img_name p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #020100;
+    border: #f0c441 solid 3px;
+    background-color: #f0c441;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+}
+
+#infos_helga{
+    padding: 5px 50px 0px 10px;
+}
+
+#infos_helga p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    font-size: 16px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+#emblema{
+    width: 50%;
+    display: flex;
+}
+
+#emblema_img{
+    width: 255px;
+    height: 380px; 
+}
+
+#emblema_img img{
+    margin-left: 10px;
+    width: 249px;
+    height: 369px;
+    border: #f0c441 solid 3px;
+}
+
+#emblema_img p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #020100;
+    border: #f0c441 solid 3px;
+    background-color: #f0c441;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+#infos_lufa{
+    padding: 5px 50px 0px 10px;
+}
+
+#infos_lufa p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 10px #151515;
+}
+
+.titlep{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #020100;
+}
