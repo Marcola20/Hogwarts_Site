@@ -123,6 +123,11 @@ ul.nav li {
     vertical-align: baseline;
 }
 
+figure, figure img{
+    width: 320px;
+    height: 210px;
+}
+
 #linha_baixo_pontilhada{
     border-bottom: #020100 solid 3px;
     border-style: dotted;

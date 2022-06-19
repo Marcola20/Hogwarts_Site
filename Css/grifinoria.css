@@ -259,13 +259,9 @@ ul.naveg li {
     display: flex;
 }
 
-#capa img{
-    border: #f0c441 solid 3px;
-}
-
 #capa p{
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 270px;
     margin-right: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -323,4 +319,16 @@ ul.naveg li {
     border: #b60a27 solid 2px;
     padding: 5px 10px 5px 10px;
     align-items: center;
+}
+
+#capa img{
+    border: #f0c441 solid 3px;
+    opacity: 0;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 500ms;
+}
+
+#capa img.capaInvisibilidade{
+    opacity: 1;
 }

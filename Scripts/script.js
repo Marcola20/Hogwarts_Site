@@ -25,5 +25,33 @@ if (documentsHeight > 768) {
     $("#pReliquiaLufa").hide();
 }
 
+/* ANOS HOGWARTS */
+
+/* CAPA INVISIBILIDADE */
 
 
+let time = 4000,
+    currentImageIndex = 0,
+    images = document.querySelectorAll("#capa img")
+    max = images.length;
+
+function nextImage(){
+
+    images[currentImageIndex]
+        .classList.remove("capaInvisibilidade")    
+
+    currentImageIndex++
+    if(currentImageIndex>= max)
+        currentImageIndex = 0
+
+    images[currentImageIndex]
+        .classList.add("capaInvisibilidade")    
+}
+
+function start(){
+    setInterval(() => {
+        nextImage()
+    }, time)
+}
+
+window.addEventListener("load", start)
