@@ -180,6 +180,8 @@ figure, figure img{
     text-shadow: 2px 2px 10px #151515;
 }
 
+/* GRIFINORIA E LUFA LUFA */
+
 .griflufa{
     display: flex;
 }
@@ -255,6 +257,8 @@ figure, figure img{
     text-decoration: none;
 }
 
+/* CORVINAL E SONSERINA */
+
 .corvsons{
     display: flex;
 }
@@ -278,17 +282,17 @@ figure, figure img{
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #cd7f32;
+    text-shadow: 2px 2px 10px #151515;
     text-align: center;
     padding: 10px;
 }
 
 #botao_corv{
-    border: solid #073b61;
+    border: solid #06558e;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     background: #096fb9;
     color: #cd7f32;
-    text-shadow: 2px 2px 10px #151515;
     text-align: center;
     padding: 30px 30px 30px 30px;
     border-radius: 6px;
@@ -319,12 +323,11 @@ figure, figure img{
 }
 
 #botao_sonse{
-    border: solid #0e3f2c;
+    border: solid #15513a;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     background: #1e7352;
     color: #b4b5b7;
-    text-shadow: 2px 2px 10px #151515;
     text-align: center;
     padding: 30px 30px 30px 30px;
     border-radius: 6px;
@@ -343,3 +346,18 @@ footer {
 
 }
 
+/* ANIMAÇÃO */
+
+[data-anime]{
+    opacity: 0;
+    transition: .8s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-250px, 0, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
