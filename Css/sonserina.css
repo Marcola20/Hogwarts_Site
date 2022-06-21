@@ -60,7 +60,7 @@ ul.naveg li {
     border: solid #06558e;
     font-family: Arial, Helvetica, sans-serif;
     background: #096fb9;
-    color: #b1acb2;
+    color: #cd7f32;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -93,4 +93,179 @@ ul.naveg li {
     text-align: center;
     color: #b4b5b7;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* DIV DAS CORES, ANIMAIS, EMBLEMA E DO FUNDADOR */
+
+.divflex{
+    display: flex;
+    height: 405px;
+    border-bottom: 3px solid #b4b5b7;
+    border-style: dotted;
+}
+
+#fundador{
+    width: 50%;
+    display: flex;
+}
+
+#img_name{
+    width: 255px;
+    height: 380px; 
+}
+
+#img_name img{
+    width: 249px;
+    height: 369px;
+    border: #15513a solid 3px;
+}
+
+#img_name p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #b4b5b7;
+    border: #15513a solid 3px;
+    background-color: #1e7352;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+}
+
+#infos_sonserina{
+    padding: 5px 50px 0px 10px;
+}
+
+#infos_sonserina p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 10px;
+    text-shadow: 2px 2px 10px #151515;
+    font-size: 16px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+#emblema{
+    width: 50%;
+    display: flex;
+}
+
+#emblema_img{
+    width: 255px;
+    height: 380px; 
+}
+
+#emblema_img img{
+    margin-left: 10px;
+    width: 249px;
+    height: 369px;
+    border: #15513a solid 3px;
+}
+
+#emblema_img p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #b4b5b7;
+    border: #15513a solid 3px;
+    background-color: #1e7352;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+#infos_salazar{
+    padding: 5px 50px 0px 10px;
+}
+
+#infos_salazar p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    font-size: 16px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+.titlep{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #b4b5b7;
+}
+
+/* ITEM E ANIMAL */
+
+#divflex_itens{
+    display: flex;
+    margin-top: 10px;
+}
+
+#medalhao{
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+
+.basilisco_medalhao{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #b4b5b7;
+}
+
+#medalhao img{
+    border: #15513a solid 3px;
+    margin-left: 10px;
+}
+
+#medalhao p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+#basilisco{
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+
+#basilisco img{
+    border: #15513a solid 3px;
+    margin-left: 10px;
+}
+
+
+#basilisco p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+footer {
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b4b5b7;
+    text-align: center;
+    background-color: #1e7352;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+
 }

@@ -60,7 +60,7 @@ ul.naveg li {
     border: solid #06558e;
     font-family: Arial, Helvetica, sans-serif;
     background: #096fb9;
-    color: #b1acb2;
+    color: #cd7f32;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -91,6 +91,148 @@ ul.naveg li {
 
 #corv_sobre p{
     text-align: center;
-    color: #b1acb2;
+    color: #cd7f32;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* DIV DAS CORES, ANIMAIS, EMBLEMA E DO FUNDADOR */
+
+.divflex{
+    display: flex;
+    height: 405px;
+    border-bottom: 3px solid #cd7f32;
+    border-style: dotted;
+}
+
+#fundadora{
+    width: 50%;
+    display: flex;
+}
+
+#img_name{
+    width: 255px;
+    height: 380px; 
+}
+
+#img_name img{
+    width: 249px;
+    height: 369px;
+    border: #06558e solid 3px;
+}
+
+#img_name p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #cd7f32;
+    border: #06558e solid 3px;
+    background-color: #096fb9;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+}
+
+#infos_rowena{
+    padding: 5px 50px 0px 10px;
+}
+
+#infos_rowena p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    font-size: 16px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+}
+
+#emblema{
+    width: 50%;
+    display: flex;
+}
+
+#emblema_img{
+    width: 255px;
+    height: 380px; 
+}
+
+#emblema_img img{
+    margin-left: 10px;
+    width: 249px;
+    height: 369px;
+    border: #06558e solid 3px;
+}
+
+#emblema_img p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #cd7f32;
+    border: #06558e solid 3px;
+    background-color: #096fb9;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+#infos_corvinal{
+    padding: 5px 50px 0px 10px;
+}
+
+#infos_corvinal p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 10px #151515;
+}
+
+.titlep{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #cd7f32;
+}
+
+#diadema_title{
+    margin-top: 10px;
+    color: #cd7f32;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+}
+
+#diadema_infos p{
+    color: white;
+    font-family:'Acme', sans-serif;
+    font-size: 20px;
+    border: solid #06558e;
+    background: #096fb9;
+    padding: 10px;
+}
+
+#diadema{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#diadema img{
+    border: #cd7f32 solid 3px;
+    height: 225px;
+}
+
+footer {
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #cd7f32;
+    text-align: center;
+    background-color: #096fb9;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
 }

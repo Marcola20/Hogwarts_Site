@@ -6,26 +6,33 @@ if (documentsHeight > 768) {
     $("#pDoGodric").show();
     $("#pObservacaoSword").show();
     $("#pObservacaoCapa").show();
-    $("#pAtivaMapa").show();
 
     /* LUFA-LUFA */
     $("#pDaLufa").show();
-    $("#pReliquiaLufa").hide();
+    $("#pReliquiaLufa").show();
+    $("#pObservacaoTaca").show();
+    $("#pObservacaoTribruxo").show();
+
+    /* SONSERINA */
+    $("#pCamaraSonse").show();
+    $("#pObservacaoBasilisco").show();
 
 }else{
     /* GRIFINÓRIA */
     $("#pDoGrifinoria").hide();
     $("#pDoGodric").hide();
     $("#pObservacaoSword").hide();
-    $("#pObservacaoCapa").hide();
-    $("#pAtivaMapa").hide()
 
     /* LUFA-LUFA */
     $("#pDaLufa").hide();
     $("#pReliquiaLufa").hide();
-}
+    $("#pObservacaoTaca").hide();
+    $("#pObservacaoTribruxo").hide();
 
-/* ANOS HOGWARTS */
+    /* SONSERINA */
+    $("#pCamaraSonse").hide();
+    $("#pObservacaoBasilisco").hide();
+}
 
 /* CAPA INVISIBILIDADE */
 

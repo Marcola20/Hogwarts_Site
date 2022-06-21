@@ -17,17 +17,6 @@
     border-bottom: #020100 solid 3px;
 }
 
-#anos {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-shadow: 2px 2px 10px #151515;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 10px;
-    margin: 20px;
-}
-
 ul.nav {
     margin: 30px;
     margin-top: -15px;
@@ -71,7 +60,7 @@ ul.nav li {
     border: solid #06558e;
     font-family: Arial, Helvetica, sans-serif;
     background: #096fb9;
-    color: #b1acb2;
+    color: #cd7f32;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -133,6 +122,26 @@ figure, figure img{
     border-style: dotted;
 }
 
+#anos {
+    font-family: 'Staatliches', cursive;
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+#h3casas {
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-shadow: 2px 2px 10px #151515;
+    text-align: center;
+    padding: 10px;
+}
+
 #casas_up{
     background: linear-gradient(68deg, #1d1c1c 16.62%, #282727 85.61%);
     width: 100%;
@@ -149,15 +158,6 @@ figure, figure img{
     padding: 0px 0px 30px 30px;
     border-radius: 6px;
     text-decoration: none;
-}
-
-#h3casas {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-shadow: 2px 2px 10px #151515;
-    text-align: center;
-    padding: 10px;
 }
 
 #cor_grif{
@@ -277,7 +277,7 @@ figure, figure img{
 .corvinal p{
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #b1acb2;
+    color: #cd7f32;
     text-align: center;
     padding: 10px;
 }
@@ -287,7 +287,7 @@ figure, figure img{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     background: #096fb9;
-    color: #b1acb2;
+    color: #cd7f32;
     text-shadow: 2px 2px 10px #151515;
     text-align: center;
     padding: 30px 30px 30px 30px;
@@ -331,19 +331,15 @@ figure, figure img{
     text-decoration: none;
 }
 
-
-#foot{
-    border: 0;
-    border-top: 3px solid black;
-    margin: 0px 0px 5px 0px;
-}
-
 footer {
-    font-size: 15px;
+    padding: 20px;
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: center;
     background-color: #2d2925;
     border-bottom: 3px solid black;
+    border-top: 3px solid black;
+
 }
 
