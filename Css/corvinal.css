@@ -236,3 +236,23 @@ footer {
     border-bottom: 3px solid black;
     border-top: 3px solid black;
 }
+
+/* ANIMAÇÃO */
+
+[data-anime]{
+    opacity: 0;
+    transition: .8s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-250px, 0, 0);
+}
+
+[data-anime="right"]{
+    transform: translate3d(250px, 0, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
